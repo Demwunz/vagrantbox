@@ -39,6 +39,7 @@ Lets create a different folder for our development work to take place. In your h
 
     config.vm.synced_folder "~/Development", "/home/dev"
 
+From now on you will want to do all your development within the Development folder, this will sync with your vagrantbox, so you'll have access to your files at all times.
 
 #### SSH
 By default when you create a Vagrant box if uses it own SSH key to allow you to login. However this is a problem if you want to deploy or issue git commands from in the box. We can change the configuration of Vagrant to allow us to use our primary SSH key to login and also forward it so the box can use it as well.
