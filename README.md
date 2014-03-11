@@ -63,7 +63,6 @@ Finally update your Vagrantfile with these additional lines in the config block.
 You'll need to edit the private_key_path (same as your public but without the .pub). This path needs to be the full one so don't use ~.
 
 ----
-----
 ###### Windows users
 Because Git-Bash does not support SSH Forwarding natively we need to create a script to load the key into an agent.
 
