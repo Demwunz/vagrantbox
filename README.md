@@ -20,6 +20,7 @@ We now want to create a Vagrant directory, move into this directory then finally
     $ vagrant init mycustombox http://files.vagrantup.com/lucid32.box
 
 You will now have a **Vagrantfile** file in this new directory. We're going to update it, so drag this file into your [favourite text editor](http://www.sublimetext.com/)
+
 ----
 ###### VMware Fusion
 
@@ -29,6 +30,7 @@ If you're using VMware fusion you will have to run these commands to get it runn
     $ vagrant plugin license vagrant-vmware-fusion license.lic
     $ vagrant up --provider=vmware_fusion
 ----
+
 Before we do anything else, lets fire up the box, this may take up to 20 minutes as the image is downloaded to your computer:
 
     $ vagrant up
