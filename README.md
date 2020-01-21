@@ -1,4 +1,4 @@
-# Fazal's custom Vagrant Stack for frontend development
+# **This is old and out of date**. Consider a modern alternative.
 
 ![Science](https://gimmebar-assets.s3.amazonaws.com/4fafbdce48c48.jpg)
 
